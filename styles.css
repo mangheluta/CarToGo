@@ -1,0 +1,227 @@
+.carousel-item{
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+	opacity: 0.95;
+}
+
+.carousel-item img{
+	height:100%;
+}
+
+.choose {
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.navbar{
+	z-index: 100;
+	height: 80px;
+}
+
+.scrolled {
+  /*background-color: #858989 !important;*/
+  background-color: #1f2833 !important;
+  transition: background-color 300ms linear;
+}
+
+.navbar-light .navbar-brand{
+	color: white;
+	font-size: 35px;
+	font-family: 'Baloo Bhai', cursive;
+	letter-spacing: 1px;
+	margin-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+h1 {
+    border-bottom:2.3px solid #000;
+    line-height:16px;
+    text-align:center;
+}
+span {
+    background:#FFF;
+    position:relative;
+    bottom:-8px;
+    padding:0 15px;
+}
+
+.title {	
+	text-align: center;
+	padding: 20px;
+	border-style: ridge;
+	border-radius: 50px;
+}
+
+.title img {
+	width: 60%;
+	margin-top: 10px;
+	border-radius: 100px;
+}
+
+.title h2 {
+	color: #88bdbc;
+	margin-bottom: 20px;
+	margin-top: 45px;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.title p {
+	color: #1e1c1c;
+	margin-bottom: 20px;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.btn-info {
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #1f2833;
+	color: #fff !important;
+	border-color:  #1f2833;
+}
+
+.btn-info:hover {
+	background-color: #88bdbc;
+	color: #000 !important;
+}
+
+.presentation {
+	background: url('images/bgimg.jpg');
+	height: 300px;
+}
+
+.title2 {
+	text-align: center;
+	padding: 50px;
+}
+
+.title2 h2, h4{
+	color: #000;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.fas, .far {
+	color: #000;
+	margin-top: 5px;
+}
+
+.space {
+	margin-top: 50px;
+}
+
+.footer1 {
+	background-color: #88bdbc;
+	height: 40px;
+}
+
+.footer2 {
+	background-color: #2f4454;
+	height: 130px;
+}
+
+.social ul, li{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.footerlist {
+	margin-top: 25px;
+}
+
+.links {
+	color: black;
+}
+
+input, select {
+	background-color: #77a6f7;
+	border: 1px solid #911146;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.economy input[type="text"], .economy select, .medium input[type="text"], .medium select, .luxury input[type="text"], .luxury select, .van input[type="text"], .van select {
+	display: block;
+	margin-bottom: 12px;
+	width: 200px;
+	margin-left: 135px;
+}
+
+input[type="submit"] {
+	color: blue;
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 80%;  /* The width is the width of the web page */
+}
+
+.contact {
+	margin-bottom: 200px;
+	margin-top: 200px;
+}
+
+.contact h3 {
+	padding-top: 50px;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 100px;
+}
+
+.pricing {
+	margin-right: 50px;
+	margin-left: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+}
+
+table{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 35px;
+}
+
+
+td {
+	height: 200px;
+	width: 400px;
+}
+
+td, tr{
+	border: 1px solid black;
+}
+
+
+
+/*.tabletitle {
+	background-color: #cccccc;
+}
+
+.eventd {
+	background-color: #14a098;
+}
+
+.oddtd {
+	background-color: #0f292f;
+}*/
+
+@media screen and (max-width:900px) {  
+  .presentation {
+    display: none;
+  }
+
+  .footer2 {
+  	height: 320px;
+  }
+}
